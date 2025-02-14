@@ -1,0 +1,6 @@
+# Login Activity Log File
+# Created by: Defebs-vpn
+# Created at: 2025-02-13 18:09:25 UTC
+# Format: TIMESTAMP | USERNAME | IP | SERVICE | STATUS
+
+2025-02-13 18:09:25 | admin | 192.168.1.1 | SSH | SUCCESS

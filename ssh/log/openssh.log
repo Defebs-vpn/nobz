@@ -1,0 +1,21 @@
+# OpenSSH Server Log File
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 10:30:46 UTC
+# Format: TIMESTAMP|PROCESS|PID|EVENT_TYPE|USER|IP|MESSAGE
+
+# Event Types:
+# - SESSION: Session related events
+# - AUTH: Authentication events
+# - SFTP: SFTP operations
+# - SCP: SCP operations
+# - CONFIG: Configuration changes
+# - SECURITY: Security related events
+
+# Example entries:
+2025-02-14 10:30:46|sshd|1234|SESSION|user1|192.168.1.100|Session opened
+2025-02-14 10:30:46|sshd|1235|AUTH|invalid|10.0.0.50|Authentication failed
+2025-02-14 10:30:46|sshd|1236|SFTP|user2|172.16.0.25|SFTP session started
+2025-02-14 10:30:46|sshd|1237|SCP|user3|192.168.1.101|File transfer completed
+2025-02-14 10:30:46|sshd|1238|SECURITY|root|localhost|Invalid protocol version
+
+# Active entries below:

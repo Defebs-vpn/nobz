@@ -1,0 +1,7 @@
+# Access Log File
+# Created by: Defebs-vpn
+# Created at: 2025-02-13 18:09:25 UTC
+# Format: TIMESTAMP | USERNAME | IP | ACTION | STATUS
+
+2025-02-13 18:09:25 | admin | 192.168.1.1 | LOGIN | SUCCESS
+2025-02-13 18:09:25 | system | localhost | STARTUP | SUCCESS

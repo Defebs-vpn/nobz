@@ -1,0 +1,11 @@
+# IP Banned Database
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 09:45:08 UTC
+# Format: IP_ADDRESS|BAN_DATE|BAN_TIME|LAST_USERNAME|REASON|BANNED_BY
+
+# Example entries:
+# 192.168.1.100|2025-02-14|09:45:08|john|BRUTE_FORCE|SYSTEM
+# 10.0.0.50|2025-02-14|09:45:08|alice|DDOS_ATTEMPT|ADMIN
+# 172.16.0.25|2025-02-14|09:45:08|bob|MULTIPLE_AUTH_FAILURE|SYSTEM
+
+# Active entries below:

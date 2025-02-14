@@ -1,0 +1,15 @@
+[Unit]
+Description=Stunnel TLS Tunnel Service
+Documentation=man:stunnel(8)
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/stunnel /etc/stunnel/stunnel.conf
+ExecReload=/bin/kill -HUP $MAINPID
+PIDFile=/var/run/stunnel.pid
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

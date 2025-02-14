@@ -1,0 +1,15 @@
+[Unit]
+Description=Dropbear SSH Server Service
+Documentation=man:dropbear(8)
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/var/run/dropbear.pid
+ExecStart=/usr/sbin/dropbear -p 80 -W 65536
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,20 @@
+# Dropbear SSH Log File
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 10:30:46 UTC
+# Format: TIMESTAMP|EVENT_TYPE|USER|IP|SESSION_ID|MESSAGE
+
+# Event Types:
+# - AUTH_SUCCESS: Successful authentication
+# - AUTH_FAILED: Failed authentication attempt
+# - CONNECTION: Connection established/closed
+# - ERROR: Error events
+# - SYSTEM: System related events
+
+# Example entries:
+2025-02-14 10:30:46|AUTH_SUCCESS|user1|192.168.1.100|DB-1001|Login successful
+2025-02-14 10:30:46|AUTH_FAILED|invalid|10.0.0.50|DB-1002|Wrong password
+2025-02-14 10:30:46|CONNECTION|user2|172.16.0.25|DB-1003|Connection closed
+2025-02-14 10:30:46|ERROR|system|localhost|DB-1004|Port binding failed
+2025-02-14 10:30:46|SYSTEM|root|localhost|DB-1005|Service started
+
+# Active entries below:

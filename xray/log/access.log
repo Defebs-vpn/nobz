@@ -1,0 +1,11 @@
+# XRAY Access Log
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 10:14:24 UTC
+# Format: TIMESTAMP|PROTOCOL|USER|IP|DESTINATION|STATUS|BYTES_SENT|BYTES_RECEIVED
+
+# Example entries:
+2025-02-14 10:14:24|VMESS|user1|192.168.1.100|example.com:443|OK|1024|2048
+2025-02-14 10:14:24|VLESS|user2|10.0.0.1|google.com:443|OK|512|1024
+2025-02-14 10:14:24|TROJAN|user3|172.16.0.1|facebook.com:443|FAILED|0|0
+
+# Active entries below:

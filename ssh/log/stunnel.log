@@ -1,0 +1,21 @@
+# Stunnel SSL/TLS Log File
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 10:30:46 UTC
+# Format: TIMESTAMP|SEVERITY|CLIENT_IP|PORT|SERVICE|STATUS|MESSAGE
+
+# Severity Levels:
+# - DEBUG: Debug information
+# - INFO: Normal operations
+# - NOTICE: Important events
+# - WARNING: Warning conditions
+# - ERROR: Error conditions
+# - FATAL: Fatal conditions
+
+# Example entries:
+2025-02-14 10:30:46|INFO|192.168.1.100|443|dropbear|SUCCESS|Connection established
+2025-02-14 10:30:46|WARNING|10.0.0.50|777|openssh|FAILED|Certificate verification failed
+2025-02-14 10:30:46|ERROR|172.16.0.25|990|openvpn|ERROR|Connection reset by peer
+2025-02-14 10:30:46|NOTICE|localhost|2083|ws-stunnel|INFO|Service restarted
+2025-02-14 10:30:46|FATAL|localhost|443|system|ERROR|Unable to load certificate
+
+# Active entries below:

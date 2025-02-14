@@ -1,0 +1,18 @@
+# SSL Certificate for XRAY
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 10:08:25 UTC
+# WARNING: This is a placeholder file. 
+# Actual certificate will be generated during SSL installation.
+
+-----BEGIN CERTIFICATE-----
+# Certificate content will be placed here by ssl-install.sh
+# Do not modify this file manually
+# Certificate should be renewed automatically by acme.sh
+-----END CERTIFICATE-----
+
+# Certificate Information:
+# Issued To: your-domain.com
+# Issued By: Let's Encrypt
+# Valid From: Certificate start date
+# Valid To: Certificate end date
+# Key Type: RSA 2048 bits / ECDSA P-384

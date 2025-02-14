@@ -1,0 +1,11 @@
+# Banned Users Database
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 09:45:08 UTC
+# Format: USERNAME|BAN_DATE|BAN_TIME|ACCOUNT_TYPE|REASON|BANNED_BY
+
+# Example entries:
+# john|2025-02-14|09:45:08|XRAY-VMESS|MULTI_LOGIN|SYSTEM
+# alice|2025-02-14|09:45:08|SSH|ABUSE|ADMIN
+# bob|2025-02-14|09:45:08|XRAY-VLESS|SPAM|SYSTEM
+
+# Active entries below:

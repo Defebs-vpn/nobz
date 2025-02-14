@@ -1,0 +1,16 @@
+[Unit]
+Description=OpenSSH Server Service
+Documentation=man:sshd(8) man:sshd_config(5)
+After=network.target
+
+[Service]
+Type=notify
+ExecStart=/usr/sbin/sshd -D
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartPreventExitStatus=255
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

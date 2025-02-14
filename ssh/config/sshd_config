@@ -1,0 +1,40 @@
+# SSH Server Configuration
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 03:56:01 UTC
+
+# Basic Configuration
+Port 22
+Protocol 2
+AddressFamily any
+ListenAddress 0.0.0.0
+
+# Authentication
+PermitRootLogin yes
+PubkeyAuthentication yes
+PasswordAuthentication yes
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+UsePAM yes
+
+# Security
+MaxAuthTries 6
+MaxSessions 10
+LoginGraceTime 120
+ClientAliveInterval 60
+ClientAliveCountMax 3
+
+# Features
+X11Forwarding no
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server
+
+# Logging
+SyslogFacility AUTH
+LogLevel INFO
+
+# Allow Client Forward
+AllowTcpForwarding yes
+AllowStreamLocalForwarding yes
+GatewayPorts yes
+PermitTunnel yes

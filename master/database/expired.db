@@ -1,0 +1,11 @@
+# Expired Users Database
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 09:41:00 UTC
+# Format: USERNAME|EXPIRED_DATE|EXPIRED_TIME|ACCOUNT_TYPE|LAST_LOGIN|STATUS
+
+# Example entries:
+# john|2025-03-14|09:41:00|XRAY-VMESS|2025-02-13 15:30:25|EXPIRED
+# alice|2025-04-01|00:00:00|SSH|2025-02-14 08:15:10|EXPIRED
+# bob|2025-03-20|23:59:59|XRAY-VLESS|2025-02-12 21:45:33|EXPIRED
+
+# Active entries below:

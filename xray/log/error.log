@@ -1,0 +1,18 @@
+# XRAY Error Log
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 10:14:24 UTC
+# Format: TIMESTAMP|ERROR_LEVEL|PROTOCOL|USER|IP|ERROR_MESSAGE
+
+# Error Levels:
+# DEBUG   - Detailed information for debugging
+# INFO    - Informational messages
+# WARNING - Warning messages
+# ERROR   - Error messages
+# FATAL   - Fatal errors causing system shutdown
+
+# Example entries:
+2025-02-14 10:14:24|ERROR|VMESS|user1|192.168.1.100|Authentication failed
+2025-02-14 10:14:24|WARNING|VLESS|user2|10.0.0.1|Connection timeout
+2025-02-14 10:14:24|FATAL|SYSTEM|system|localhost|Failed to load certificate
+
+# Active entries below:

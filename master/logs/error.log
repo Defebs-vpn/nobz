@@ -1,0 +1,7 @@
+# Error Log File
+# Created by: Defebs-vpn
+# Created at: 2025-02-13 18:09:25 UTC
+# Format: TIMESTAMP | LEVEL | MODULE | MESSAGE
+
+2025-02-13 18:09:25 | INFO | SYSTEM | System started
+2025-02-13 18:09:25 | INFO | LOGGER | Log system initialized

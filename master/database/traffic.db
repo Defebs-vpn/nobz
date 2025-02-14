@@ -1,0 +1,12 @@
+# Traffic Database
+# Created by: Defebs-vpn
+# Created at: 2025-02-14 09:45:08 UTC
+# Format: USERNAME|DATE|DOWNLOAD|UPLOAD|TOTAL|ACCOUNT_TYPE|QUOTA_LIMIT
+
+# Example entries:
+# john|2025-02-14|1024|2048|3072|XRAY-VMESS|10240
+# alice|2025-02-14|512|1024|1536|SSH|5120
+# bob|2025-02-14|2048|4096|6144|XRAY-VLESS|20480
+
+# Note: Traffic values are in MB
+# Active entries below:
